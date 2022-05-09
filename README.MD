@@ -41,3 +41,12 @@ Para guardar un conjunto de cambios y crear un punto de control usamos los commi
 git commit -m "mensajes del commit"
 ```
 
+## Deshacer cambios a partir de los commit
+
+Tenemos 2 opciones:
+
+```
+git reset --soft <código-commit>
+```
+
+Con --soft podemos volver a un commit anterior sin deshacer cambios
